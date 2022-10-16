@@ -1,6 +1,5 @@
 # PyTorch_MNIST_ResNet
-/apm/l/:packageName
-<img src="https://img.shields.io/badge/license-MIT-green">
+<img src="https://img.shields.io/badge/license-MIT-green">   
 
 This is a Pytorch implementation of the ResNet model proposed in "Deep Residual Learning for Image Recognition".   
 The paper can be viewed [here](https://arxiv.org/abs/1512.03385).   
