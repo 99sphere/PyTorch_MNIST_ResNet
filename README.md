@@ -50,10 +50,16 @@ Code for inference is not provided.
 In order to understand the performance and loss of each model in the training process, the training process is recorded in the log folder.
 
 If you run the log_visualize.py in the 'utils' directory, you can get the following result.
+```
+python utils/log_visualize.py 
+```
+
 ![Figure_1](https://user-images.githubusercontent.com/59161083/196022473-e7db8a46-5fba-45f3-8cde-4fa9e96f3905.png)
 ![Figure_2](https://user-images.githubusercontent.com/59161083/196022491-508b917c-a996-405b-a269-d98480b7b2a2.png)
 
 If you want to check training process, run the following command in the terminal.   
+It must be executed in the same location as the train.py file.   
+Run the following command in the terminal.   
 ```
 python train.py
 ```
