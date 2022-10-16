@@ -62,7 +62,7 @@ Run the following command in the terminal.
 python train.py
 ```
 
-You can select the model by editing line 37 of train.py
+You can select the model by editing line 36 of train.py
 
 ```python
 res18 = ResNet18(3, 10)
@@ -74,10 +74,11 @@ res152 = ResNet152(3, 10)
 model = # Choose the target model
 ```
 
-and can adjust batch size by editing line 15 of train.py
+and can adjust batch size and epochs by editing line 15 of train.py
 
 ```python
 BATCH_SIZE = 32
+EPOCH = 3
 ```
 
 In order to understand the performance and loss of each model in the training process, the training process is recorded in the log folder.
