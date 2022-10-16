@@ -6,7 +6,7 @@ This is a Pytorch implementation of the ResNet model proposed in "Deep Residual 
 The paper is available [here](https://arxiv.org/abs/1512.03385).   
 **The model architecture and number of params is exactly same as pretrained model from torchvision.**
 Check the figure below.    
-The MNIST dataset was used, and it was expanded to fit the channel (Grayscale to RGB).
+The MNIST dataset (1 x 28 x 28) was used, and it was expanded (3 x 28 x 28) to fit the channel (Grayscale to RGB).
 
 ![image](https://user-images.githubusercontent.com/59161083/196022855-d0011bcb-e93e-4f41-aea8-67a4ff8617c2.png)
 
