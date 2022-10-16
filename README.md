@@ -9,7 +9,7 @@ Check the figure below.
 
 ## Directory Tree
 ```
-ResNet
+PyTorch_MNIST_ResNet
 ├─data
 │  └─MNIST
 ├─log
