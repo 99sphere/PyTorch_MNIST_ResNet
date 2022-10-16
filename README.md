@@ -11,6 +11,8 @@ The MNIST dataset was used, and it was expanded to fit the channel (Grayscale to
 
 
 ## Directory Tree
+If you run train.py, you can automatically download the MNIST dataset and get the train log.
+
 ```
 PyTorch_MNIST_ResNet
 ├─data
@@ -90,3 +92,6 @@ python utils/log_visualize.py
 
 If there is an any problem or question, please contact me or leave it in the Issues tab.    
 Welcome!   
+
+## Result for all model proposed in "Deep Residual Learning for Image Recognition".
+
