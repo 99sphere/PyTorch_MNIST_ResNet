@@ -1,4 +1,5 @@
 # PyTorch_MNIST_ResNet
+/apm/l/:packageName
 This is a Pytorch implementation of the ResNet model proposed in "Deep Residual Learning for Image Recognition".   
 The paper can be viewed [here](https://arxiv.org/abs/1512.03385).   
 **Except for the size of the input image, the model architecture and number of params is exactly same as pretrained model from torchvision.**
@@ -67,6 +68,12 @@ res101 = ResNet101(3, 10)
 res152 = ResNet152(3, 10)
 
 model = # Choose the target model
+```
+
+and can adjust batch size by editing line 15 of train.py
+
+```python
+BATCH_SIZE = 32
 ```
 
 In order to understand the performance and loss of each model in the training process, the training process is recorded in the log folder.
