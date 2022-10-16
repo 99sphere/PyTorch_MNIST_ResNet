@@ -11,7 +11,7 @@ The MNIST dataset was used, and it was expanded to fit the channel (Grayscale to
 
 
 ## Directory Tree
-If you run train.py, you can automatically download the MNIST dataset and get the train log.
+When you run train.py, the MNIST dataset is automatically downloaded and the training log is also automatically saved.
 
 ```
 PyTorch_MNIST_ResNet
