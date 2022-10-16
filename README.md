@@ -94,4 +94,4 @@ If there is an any problem or question, please contact me or leave it in the Iss
 Welcome!   
 
 ## Result for all model proposed in "Deep Residual Learning for Image Recognition"
-
+### EPOCHS = 3
