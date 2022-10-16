@@ -93,5 +93,5 @@ python utils/log_visualize.py
 If there is an any problem or question, please contact me or leave it in the Issues tab.    
 Welcome!   
 
-## Result for all model proposed in "Deep Residual Learning for Image Recognition".
+## Result for all model proposed in "Deep Residual Learning for Image Recognition"
 
