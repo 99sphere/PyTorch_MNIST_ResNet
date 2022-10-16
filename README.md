@@ -1,7 +1,7 @@
 # PyTorch_MNIST_ResNet
 <img src="https://img.shields.io/badge/license-MIT-green">   
 
-## 
+## Summary
 This is a Pytorch implementation of the ResNet model proposed in "Deep Residual Learning for Image Recognition".   
 The paper is available [here](https://arxiv.org/abs/1512.03385).   
 **The model architecture and number of params is exactly same as pretrained model from torchvision.**
