@@ -98,3 +98,5 @@ Welcome!
 In all experiments, Adam optimizer and CrossEntropyLoss were used, and lr scheduler was not used.
 
 ### EPOCHS = 3
+![all_model_3epochs_train](https://user-images.githubusercontent.com/59161083/196039078-4553bc61-45ff-4d78-afaf-8c7eac32d0dd.png)
+![all_model_3epochs_validation](https://user-images.githubusercontent.com/59161083/196039062-e82bf41a-07be-4a11-a572-b5ed2151ec23.png)
