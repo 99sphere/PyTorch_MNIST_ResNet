@@ -95,4 +95,6 @@ If there is an any problem or question, please contact me or leave it in the Iss
 Welcome!   
 
 ## Result for all model proposed in "Deep Residual Learning for Image Recognition"
+In all experiments, Adam optimizer and CrossEntropyLoss were used, and lr scheduler was not used.
+
 ### EPOCHS = 3
