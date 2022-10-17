@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torchsummary import summary
 from torchvision import models
-from model.  submodules import ConvBlock, BottleneckBlock
+from model.submodules import ConvBlock, BottleneckBlock
 
 class ResNet50(nn.Module):
     def __init__(self, in_channels, out_channels, nker=64, nblk=[3,4,6,3]):
@@ -19,7 +19,7 @@ class ResNet50(nn.Module):
             for j in range(n):
                 if i == 0 and j == 0:
                     mid_channels = in_channels
-                    bottleneck_blocks += [BottleneckBlock(in_channels=in_channels, mid_channels=mid_channels, out_channels=out_channels, kernel_size=3, stride=2, padding=1)]
+                    bottleneck_blocks += [BottleneckBlock(in_channels=in_channels, mid_channels=mid_channels, out_channels=out_channels, kernel_size=3, stride=1, padding=1)]
                     in_channels = out_channels
                     
                 elif i != 0 and j == 0:

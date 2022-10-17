@@ -19,7 +19,7 @@ class ResNet152(nn.Module):
             for j in range(n):
                 if i == 0 and j == 0:
                     mid_channels = in_channels
-                    bottleneck_blocks.append(BottleneckBlock(in_channels=in_channels, mid_channels=mid_channels, out_channels=out_channels, kernel_size=3, stride=2, padding=1))                
+                    bottleneck_blocks.append(BottleneckBlock(in_channels=in_channels, mid_channels=mid_channels, out_channels=out_channels, kernel_size=3, stride=1, padding=1))                
                     in_channels = out_channels
                     
                 elif i != 0 and j == 0:
