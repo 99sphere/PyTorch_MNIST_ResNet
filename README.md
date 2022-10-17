@@ -89,18 +89,10 @@ If you run the log_visualize.py in the 'utils' directory, you can get the follow
 python utils/log_visualize.py 
 ```
 
-My Model's Result
-![my_models_Training_Accuracy_Graph](https://user-images.githubusercontent.com/59161083/196200031-0354ea5e-3388-479a-9ef7-d3e3ddb88184.png)
-![my_models_Validation_Accuracy_Graph](https://user-images.githubusercontent.com/59161083/196200039-9d354cb6-c0a4-447a-9476-c5c26eb3c0b1.png)
-
-PyTorch Model's Result
-![PyTorch_models_Training_Accuracy_Graph](https://user-images.githubusercontent.com/59161083/196200044-6a0a06e9-12dd-4c36-9f8d-506d6e8d0887.png)
-![PyTorch_models_Validation_Accuracy_Graph](https://user-images.githubusercontent.com/59161083/196200048-3c151003-7271-4e72-9fd3-1c2c307852be.png)
-
 If there is an any problem or question, please contact me or leave it in the Issues tab.    
 Welcome!   
 
-## Result for all model proposed in "Deep Residual Learning for Image Recognition"
+## Result for model proposed in "Deep Residual Learning for Image Recognition"
 In all experiments, Adam optimizer and CrossEntropyLoss were used, and lr scheduler was not used.
 
 ```
@@ -108,6 +100,14 @@ EPOCH = 1
 BATCH_SIZE = 32
 LEARNING_RATE = 1e-3
 ```
+
+### My Model's Result
+![my_models_Training_Accuracy_Graph](https://user-images.githubusercontent.com/59161083/196200031-0354ea5e-3388-479a-9ef7-d3e3ddb88184.png)
+![my_models_Validation_Accuracy_Graph](https://user-images.githubusercontent.com/59161083/196200039-9d354cb6-c0a4-447a-9476-c5c26eb3c0b1.png)
+
+### PyTorch Model's Result
+![PyTorch_models_Training_Accuracy_Graph](https://user-images.githubusercontent.com/59161083/196200044-6a0a06e9-12dd-4c36-9f8d-506d6e8d0887.png)
+![PyTorch_models_Validation_Accuracy_Graph](https://user-images.githubusercontent.com/59161083/196200048-3c151003-7271-4e72-9fd3-1c2c307852be.png)
 
 ### ResNet18
 ![cmp_resnet18_Training_Accuracy_Graph](https://user-images.githubusercontent.com/59161083/196200228-b58124e2-f3c9-4dfc-8f95-c0a1b481b029.png)
