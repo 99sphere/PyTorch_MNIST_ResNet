@@ -102,7 +102,7 @@ LEARNING_RATE = 1e-3
 ```
 
 ### My Model's Result
-![my_models_Training_Accuracy_Graph](https://user-images.githubusercontent.com/59161083/196200031-0354ea5e-3388-479a-9ef7-d3e3ddb88184.png)
+![my_models_Training_Accuracy_Graph](https://user-images.githubusercontent.com/59161083/196202584-6d339a4b-de41-4e40-93ad-975490c15c40.png)
 ![my_models_Validation_Accuracy_Graph](https://user-images.githubusercontent.com/59161083/196200039-9d354cb6-c0a4-447a-9476-c5c26eb3c0b1.png)
 
 ### PyTorch Model's Result
