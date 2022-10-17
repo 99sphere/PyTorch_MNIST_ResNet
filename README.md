@@ -75,11 +75,11 @@ res152 = ResNet152(3, 10)
 model = # Choose the target model
 ```
 
-and can adjust batch size and epochs by editing line 15 of train.py
+and can adjust batch size and epochs by editing line 15~16 of train.py
 
 ```python
-BATCH_SIZE = 32
-EPOCH = 3
+EPOCH = # num of epoch
+BATCH_SIZE = # size of batch
 ```
 
 In order to understand the performance and loss of each model in the training process, the training process is recorded in the log folder.
