@@ -88,16 +88,24 @@ If you run the log_visualize.py in the 'utils' directory, you can get the follow
 ```
 python utils/log_visualize.py 
 ```
-
-![Figure_1](https://user-images.githubusercontent.com/59161083/196022473-e7db8a46-5fba-45f3-8cde-4fa9e96f3905.png)
-![Figure_2](https://user-images.githubusercontent.com/59161083/196022491-508b917c-a996-405b-a269-d98480b7b2a2.png)
-
 If there is an any problem or question, please contact me or leave it in the Issues tab.    
 Welcome!   
 
 ## Result for all model proposed in "Deep Residual Learning for Image Recognition"
 In all experiments, Adam optimizer and CrossEntropyLoss were used, and lr scheduler was not used.
 
-### EPOCHS = 3
-![all_model_3epochs_train](https://user-images.githubusercontent.com/59161083/196039078-4553bc61-45ff-4d78-afaf-8c7eac32d0dd.png)
-![all_model_3epochs_validation](https://user-images.githubusercontent.com/59161083/196039062-e82bf41a-07be-4a11-a572-b5ed2151ec23.png)
+```
+EPOCH = 1
+BATCH_SIZE = 32
+LEARNING_RATE = 1e-3
+```
+
+### ResNet18
+
+### ResNet34
+
+### ResNet50
+
+### ResNet101
+
+### ResNet152
