@@ -3,7 +3,11 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torchsummary import summary
 from torchvision import models
-from model.submodules import ConvBlock, ResBlock
+
+if __name__ == "__main__":
+    from submodules import ConvBlock, BottleneckBlock
+else:
+    from model.submodules import ConvBlock, BottleneckBlock
 
 
 class ResNet34(nn.Module):

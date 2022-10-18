@@ -11,6 +11,7 @@ from model.ResNet50 import ResNet50
 from model.ResNet101 import ResNet101
 from model.ResNet152 import ResNet152
 
+
 from utils.util import AverageMeter
 
 BATCH_SIZE = 32
@@ -35,9 +36,9 @@ if __name__ == "__main__":
 
     print("Data Loading Done")
 
-    res18 = ResNet18(3, 10)
+    # res18 = ResNet18(3, 10)
     # res34 = ResNet34(3, 10)
-    # res50 = ResNet50(3, 10)
+    res50 = ResNet50(3, 10)
     # res101 = ResNet101(3, 10)
     # res152 = ResNet152(3, 10)
 
@@ -52,7 +53,7 @@ if __name__ == "__main__":
     # ref_res152 = models.resnet152(pretrained=False)
     # ref_res152.fc = nn.Linear(2048, 10)
 
-    model = res18
+    model = res50
     criterion = nn.CrossEntropyLoss()
     optm = optim.Adam(model.parameters(), lr=1e-3)
 

@@ -5,6 +5,11 @@ from torchsummary import summary
 from torchvision import models
 from model.submodules import ConvBlock, ResBlock
 
+if __name__ == "__main__":
+    from submodules import ConvBlock, BottleneckBlock
+else:
+    from model.submodules import ConvBlock, BottleneckBlock
+
 
 class ResNet18(nn.Module):
     def __init__(self, in_channels, out_channels, nker=64, nblk=[2, 2, 2, 2]):
