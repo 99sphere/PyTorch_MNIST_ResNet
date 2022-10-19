@@ -56,9 +56,8 @@ This is made for MNIST only, but you can use it wherever you want by editing the
 
 Code for inference is not provided.
 
-If you want to check training process, run the following command in the terminal.   
-It must be executed in the same location as the train.py file.   
-Run the following command in the terminal.   
+If you want to check training process or model architecture & numberof parameter, run the following command in the terminal.   
+**It must be executed in the same location as the train.py file.**
 
 ```
 # for check the model architecture and number of parameter
