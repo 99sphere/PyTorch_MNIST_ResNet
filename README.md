@@ -61,12 +61,12 @@ It must be executed in the same location as the train.py file.
 Run the following command in the terminal.   
 
 ```
-# for model training
-python train.py
+# for check the model architecture and number of parameter
+python model/ResNet18.py
 ```
 
 ```
-# for check the model architecture and number of parameter
+# for model training
 python train.py
 ```
 
