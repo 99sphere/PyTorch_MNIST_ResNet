@@ -109,22 +109,22 @@ LEARNING_RATE = 1e-3
 ![PyTorch_models_Training_Accuracy_Graph](https://user-images.githubusercontent.com/59161083/196200044-6a0a06e9-12dd-4c36-9f8d-506d6e8d0887.png)
 ![PyTorch_models_Validation_Accuracy_Graph](https://user-images.githubusercontent.com/59161083/196200048-3c151003-7271-4e72-9fd3-1c2c307852be.png)
 
-### ResNet18
+### ResNet18 Result
 ![cmp_resnet18_Training_Accuracy_Graph](https://user-images.githubusercontent.com/59161083/196200228-b58124e2-f3c9-4dfc-8f95-c0a1b481b029.png)
 ![cmp_resnet18_Validation_Accuracy_Graph](https://user-images.githubusercontent.com/59161083/196200233-65c564da-df7c-4813-8b1a-74deb540c4bc.png)
 
-### ResNet34
+### ResNet34 Result
 ![cmp_resnet34_Training_Accuracy_Graph](https://user-images.githubusercontent.com/59161083/196200271-453a6ce2-e619-473f-9461-e791c0419265.png)
 ![cmp_resnet34_Validation_Accuracy_Graph](https://user-images.githubusercontent.com/59161083/196200274-de9d3c01-37ff-47bc-864d-bb2507d9bfdc.png)
 
-### ResNet50
+### ResNet50 Result
 ![cmp_resnet50_Training_Accuracy_Graph](https://user-images.githubusercontent.com/59161083/196200337-2613eae7-48e1-4dd1-84fb-181e4f7bd36b.png)
 ![cmp_resnet50_Validation_Accuracy_Graph](https://user-images.githubusercontent.com/59161083/196200345-5a9da7b3-7c18-40a8-9171-5cf467a41d49.png)
 
-### ResNet101
+### ResNet101 Result
 ![cmp_resnet101_Training_Accuracy_Graph](https://user-images.githubusercontent.com/59161083/196200533-6253d38b-2dc0-49d2-9f81-5f183eea7a95.png)
 ![cmp_resnet101_Validation_Accuracy_Graph](https://user-images.githubusercontent.com/59161083/196200540-98839f9a-cc9f-47eb-af25-7b6b216deea1.png)
 
-### ResNet152
+### ResNet152 Result
 ![cmp_resnet152_Training_Accuracy_Graph](https://user-images.githubusercontent.com/59161083/196200592-94ac0bcc-6080-4fa5-a24a-059d31454af4.png)
 ![cmp_resnet152_Validation_Accuracy_Graph](https://user-images.githubusercontent.com/59161083/196200601-572661d7-addd-41c1-8385-2bb69f58533c.png)
