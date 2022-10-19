@@ -59,7 +59,14 @@ Code for inference is not provided.
 If you want to check training process, run the following command in the terminal.   
 It must be executed in the same location as the train.py file.   
 Run the following command in the terminal.   
+
 ```
+# for model training
+python train.py
+```
+
+```
+# for check the model architecture and number of parameter
 python train.py
 ```
 
